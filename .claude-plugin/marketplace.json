@@ -17,6 +17,19 @@
       },
       "homepage": "https://github.com/IanYHChu/mah-jong",
       "keywords": ["mahjong", "game", "taiwanese", "麻將"]
+    },
+    {
+      "name": "code-quest",
+      "source": {
+        "source": "npm",
+        "package": "code-quest-cli"
+      },
+      "description": "裝備驅動的 roguelike，在 Claude Code 輸入框上方自己跑：怪物由你程式碼的壞味道孵出，Claude 的工作推進冒險。",
+      "author": {
+        "name": "Ian Chu"
+      },
+      "homepage": "https://github.com/IanYHChu/code-quest-cli",
+      "keywords": ["roguelike", "game", "code-smell"]
     }
   ]
 }

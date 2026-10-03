@@ -33,6 +33,7 @@ claude plugin install mah-jong@claude-mods-games
 | 遊戲 | 說明 | 安裝 |
 |---|---|---|
 | [mah-jong](https://github.com/IanYHChu/mah-jong) | 台灣 16 張麻將，跟三家電腦對打，會算台算錢 | `claude plugin install mah-jong@claude-mods-games` |
+| [code-quest](https://github.com/IanYHChu/code-quest-cli) | 裝備驅動的 roguelike，Claude 讀到的程式碼壞味道會變成怪物，Claude 的工具呼叫推進冒險 | `claude plugin install code-quest@claude-mods-games` |
 
 ## 更新
 
