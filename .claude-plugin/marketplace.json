@@ -1,0 +1,22 @@
+{
+  "name": "claude-mods-games",
+  "owner": {
+    "name": "Ian Chu"
+  },
+  "description": "用 Claude Mods 做的小遊戲，在 Claude Code 輸入框上方等模型的空檔玩。",
+  "plugins": [
+    {
+      "name": "mah-jong",
+      "source": {
+        "source": "github",
+        "repo": "IanYHChu/mah-jong"
+      },
+      "description": "台灣 16 張麻將，在 Claude Code 輸入框上方跟三家電腦對打。",
+      "author": {
+        "name": "Ian Chu"
+      },
+      "homepage": "https://github.com/IanYHChu/mah-jong",
+      "keywords": ["mahjong", "game", "taiwanese", "麻將"]
+    }
+  ]
+}
