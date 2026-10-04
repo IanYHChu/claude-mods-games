@@ -1,0 +1,11 @@
+{
+  "name": "claude-mods-games",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check-mods": "node scripts/check-mods.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

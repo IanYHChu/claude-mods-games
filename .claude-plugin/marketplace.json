@@ -3,15 +3,16 @@
   "owner": {
     "name": "Ian Chu"
   },
-  "description": "用 Claude Mods 做的小遊戲，在 Claude Code 輸入框上方等模型的空檔玩。",
+  "description": "Small games built with Claude Mods, played above the Claude Code prompt while you wait on the model.",
   "plugins": [
     {
       "name": "mah-jong",
       "source": {
         "source": "github",
-        "repo": "IanYHChu/mah-jong"
+        "repo": "IanYHChu/mah-jong",
+        "sha": "9b751d20d6cc60c6c589e9fe58c87c83efb4bcd2"
       },
-      "description": "台灣 16 張麻將，在 Claude Code 輸入框上方跟三家電腦對打。",
+      "description": "Taiwanese 16-tile mahjong against three bots, played above the Claude Code prompt.",
       "author": {
         "name": "Ian Chu"
       },
@@ -22,9 +23,10 @@
       "name": "code-quest",
       "source": {
         "source": "npm",
-        "package": "code-quest-cli"
+        "package": "code-quest-cli",
+        "version": "0.2.0"
       },
-      "description": "裝備驅動的 roguelike，在 Claude Code 輸入框上方自己跑：怪物由你程式碼的壞味道孵出，Claude 的工作推進冒險。",
+      "description": "A gear-driven roguelike that plays itself above the Claude Code prompt: your code's smells breed the monsters, Claude's work drives the run.",
       "author": {
         "name": "Ian Chu"
       },
