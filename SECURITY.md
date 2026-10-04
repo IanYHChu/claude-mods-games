@@ -3,7 +3,9 @@
 ## Reporting a vulnerability
 
 Please report privately through GitHub: open the **Security** tab of this repository and choose
-**Report a vulnerability**. Don't open a public issue for a security problem.
+**Report a vulnerability**, or go straight to
+https://github.com/IanYHChu/claude-mods-games/security/advisories/new. Don't open a public issue for a
+security problem.
 
 This marketplace is maintained in spare time. Reports are acknowledged as soon as possible, and
 fixes for confirmed problems take priority over everything else.
