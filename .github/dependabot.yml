@@ -8,3 +8,7 @@ updates:
     directory: /
     schedule:
       interval: monthly
+    ignore:
+      # TypeScript 7 drops the compiler API that scripts/check-mods.mjs parses with
+      - dependency-name: typescript
+        update-types: ['version-update:semver-major']
