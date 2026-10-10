@@ -20,7 +20,7 @@ jobs:
           node-version: 22
       - run: npm ci
       # `claude plugin validate` lists each mod's hooks and Mods API calls
-      - run: npm install -g @anthropic-ai/claude-code@2.1.289
+      - run: npm install -g @anthropic-ai/claude-code@2.1.296
       # every plugin at its pinned version: signatures, install scripts, static guard, and
       # CAPABILITIES.md must match what the mods actually do
       - run: node scripts/check-mods.mjs --check
