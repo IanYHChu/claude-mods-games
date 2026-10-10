@@ -9,8 +9,11 @@ stay out of your conversation with Claude.
 
 ## Requirements
 
-Claude Code 2.1.288 or later (Claude Mods shipped in 2.1.287; 2.1.288 fixed the mod button and the
-band above the prompt). Check with `claude --version`, update with `claude update`.
+Claude Code 2.1.290 or later. Mods shipped in 2.1.287, and the releases after it fixed what these
+games rely on: installed mods loading in the first session after an upgrade, the right-hand side of
+the band drawing under its `[-]`, and redraws stalling on long text in symbols or CJK. Check with
+`claude --version`, update with `claude update`. The stable release channel (and the `claude-code`
+Homebrew cask) is still on 2.1.287; switch to the latest channel in `/config` until it catches up.
 
 ## Install
 
@@ -62,7 +65,8 @@ keep a compromised upstream from reaching you.
     [CAPABILITIES.md](CAPABILITIES.md)
 - **Capability list.** [CAPABILITIES.md](CAPABILITIES.md) lists the hooks each mod registers and the
   API calls it makes, and flags anything that touches your files, programs, network, settings,
-  conversation or usage. Any change in what a mod can do shows up in the pull request's diff.
+  conversation, clipboard, desktop notifications or usage. Any change in what a mod can do shows up
+  in the pull request's diff.
 
 These checks are static, so deliberately obfuscated code could still get past them; they are not
 a substitute for a sandbox. For an extra layer:
