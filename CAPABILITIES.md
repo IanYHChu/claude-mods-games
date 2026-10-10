@@ -32,6 +32,31 @@ The code each mod loads passes a static check: it imports only `claude-code` and
 | `$.ui.focus` | ordinary |
 | `$.ui.resolve` | ordinary |
 
+## hold-em
+
+- Source: github `IanYHChu/hold-em` @ `e8f266db58454e5f9a81fc12c2c0d1231b948ea3`
+- Code loaded: `hooks/bot.ts`, `hooks/cards.ts`, `hooks/eval.ts`, `hooks/register.tsx`, `hooks/table.ts`
+- Other components: none
+
+### Hooks
+
+| Item | What it means |
+|---|---|
+| `command.run{command=holdem-new}` | ordinary |
+| `command.run{command=holdem}` | ordinary |
+| `session.start` | ordinary |
+| `ui.render{component=AbovePrompt}` | ordinary |
+
+### Mods API calls
+
+| Item | What it means |
+|---|---|
+| `$.clock.every` | ordinary |
+| `$.command.register` | ordinary |
+| `$.state.get` | ordinary |
+| `$.state.set` | ordinary |
+| `$.ui.resolve` | ordinary |
+
 ## code-quest
 
 - Source: npm `code-quest-cli@0.2.0`

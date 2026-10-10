@@ -39,6 +39,7 @@ Start a new session and the game appears above the prompt.
 | Game | What it is | Install |
 |---|---|---|
 | [mah-jong](https://github.com/IanYHChu/mah-jong) | Taiwanese 16-tile mahjong against three bots, with full tai scoring and payouts | `claude plugin install mah-jong@claude-mods-games` |
+| [hold-em](https://github.com/IanYHChu/hold-em) | A six-player Texas Hold'em Sit & Go against five bots, with side pots, rising blinds and finishing places | `claude plugin install hold-em@claude-mods-games` |
 | [code-quest](https://github.com/IanYHChu/code-quest-cli) | A gear-driven roguelike: the smells in the code Claude reads become the monsters, and Claude's tool calls drive the run | `claude plugin install code-quest@claude-mods-games` |
 
 ## Security
