@@ -20,6 +20,20 @@
       "keywords": ["mahjong", "game", "taiwanese", "麻將"]
     },
     {
+      "name": "hold-em",
+      "source": {
+        "source": "github",
+        "repo": "IanYHChu/hold-em",
+        "sha": "e8f266db58454e5f9a81fc12c2c0d1231b948ea3"
+      },
+      "description": "A six-player Texas Hold'em Sit & Go against five bots, played above the Claude Code prompt.",
+      "author": {
+        "name": "Ian Chu"
+      },
+      "homepage": "https://github.com/IanYHChu/hold-em",
+      "keywords": ["poker", "holdem", "game", "sit-and-go"]
+    },
+    {
       "name": "code-quest",
       "source": {
         "source": "npm",
